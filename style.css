@@ -1,0 +1,134 @@
+* {
+  /* border: 1px solid green; */
+  font-family: "open sans";
+  color: bisque;
+  font-size: 20px;
+}
+
+.main {
+  background-image: url(./milkyPics/milkyWayGalaxy.jpg);
+  background-size: cover;
+  height: 120vh;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+body {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  height: 25vh;
+  align-items: center;
+  padding: 0 6vw;
+  justify-content: space-between;
+}
+
+.company-name {
+  color: rgb(235, 117, 8);
+  width: fit-content;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.founders {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.founders-title {
+  color: rgb(235, 117, 8);
+}
+
+a {
+  text-decoration: none;
+  transition: 0.45s;
+}
+
+a:hover {
+  color: #0000ff7e;
+}
+
+.content {
+  display: flex;
+  margin-top: 4vh;
+}
+
+.about {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10vh 0vw 10vh 2vw;
+  font-weight: 600;
+  color: grey;
+}
+@media (max-width: 1023px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about {
+    width: 100vw;
+  }
+  .child-companies {
+    align-items: center;
+    width: 100vw;
+  }
+}
+.about-title {
+  font-size: 40px;
+  font-weight: 900;
+  color: white;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+
+.about p {
+  color: white;
+  font-size: 30px;
+  width: 80%;
+  text-align: center;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+
+.mydate {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.child-companies {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+}
+
+.child-title {
+  width: fit-content;
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+  padding: 4px 0;
+  text-shadow: 1px 1px 2px rgb(12, 231, 231);
+  text-align: center;
+}
+.screenshots {
+  width: 280px;
+  border-radius: 32px;
+  box-shadow: 2px 2px #84887073;
+}
+
+.footer {
+  /* background-color: #0d0e24f5; */
+  display: flex;
+  justify-content: center;
+  color: grey;
+  font-size: 16px;
+}
